@@ -1,0 +1,8 @@
+<GridLayout rows="*,*">
+    <Label *ngIf="something" text="yes" color="red"></Label>
+    <Label *ngIf="!something" text="no" color="red"></Label>
+
+    <GridLayout row="1">
+        <page-router-outlet></page-router-outlet>
+    </GridLayout>
+</GridLayout>
